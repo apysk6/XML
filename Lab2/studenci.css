@@ -1,0 +1,90 @@
+student {
+    display:block;
+    font-size:18px;
+   border-style: solid;
+    padding: 15px;
+
+}
+
+grupa {
+      padding: 5px;
+}
+
+grupa, student {
+    display: block;
+    
+}
+
+
+
+grupa[nr="1"] {
+   float: left;
+    background-color: #f08076;
+    margin-top:250px;
+    margin-left:50px;
+     margin-bottom:100px;
+
+}
+
+grupa[nr="2"] {
+   float: left;
+    background-color: #f08076;
+     margin-top:250px;
+    margin-left:550px;
+     margin-bottom:100px;
+     background-color: #f08076;
+     
+}
+
+grupa[nr="3"] {
+   float: right;
+     margin-top:250px;
+    margin-left:450px;
+    margin-right:100px;
+    margin-bottom:100px;
+     background-color: #f08076;
+    
+
+}
+
+student imie, nazwisko {
+    font-weight:bold; 
+}
+
+student nrIndeksu {
+    display:block;
+    
+}
+
+nrIndeksu:before {
+  content: "Numer indeksu:";
+}
+
+grupa[nr="1"]>student:hover {
+    background-color: #b2a376;
+}
+
+grupa[nr="2"]>student:hover {
+    background-color: #b27a76;
+}
+
+grupa[nr="3"]>student:hover {
+    background-color: #737a76;
+}
+
+
+listaStudentow {
+    background-color:pink;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:100px;
+    
+    
+    border-style:dotted;
+        
+}
+
+student[nrIndeksu="12456"]{ 
+    background-color:#737a76;
+}
