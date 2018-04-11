@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zadanie matematyczne</title>
+<meta charset="utf-8" />
+<style>
+    .box {
+       border: 1px solid black;
+       width: 500px;
+       height: 200px;
+       margin: 10px;
+       padding: 10px;
+       background: #eba8af;
+        border-radius: 25px;
+    }
+    
+    #tresc:hover {
+      background-color: #405055;
+      transition: background-color 1s ease-in;
+    }
+    
+    #rysunek:hover {
+        width: 550px;
+        height: 250px;
+        transition: width 2s, height 5s;  
+        text-align: center;
+        
+    }
+    
+    #rozwiazanie {
+        box-shadow: 5px 10px #888888;
+    }
+    
+    #obrazek{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+
+<div id="tresc" class="box">
+<p style="font-weight: bold">Zadanie</p>
+<p>Na rysunku znajduje się figura geometryczna złożona z połowy koła i kwadratu. Kwadrat ma przekątną <i>d</i> o długości 3 cm. Oblicz pole całej figury.
+  Nie zamieniaj pierwiastków i liczby pi na liczby "z kropką".</p>
+</div>
+
+<div id="rysunek" class="box">
+<p style="font-weight: bold">Rysunek</p>
+
+    <svg width="300" height="100">
+        <circle cx="100" cy="50" r="50" fill="red" style="fill:rgb(255, 197, 0);stroke-width:5;stroke:rgb(0,0,0)"/>
+        <rect width="100" height="100" style="fill:rgb(255, 197, 0);stroke-width:5;stroke:rgb(0,0,0)" />
+        <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <text x="35" y="50" fill="red" transform="rotate(30 20,40)">3 cm</text>
+        
+        
+    </svg>
+
+</div>
+
+<div id="rozwiazanie" class="box">
+<p style="font-weight: bold">Rozwiązanie</p>
+<p>
+  Pole figury:
+</p>
+
+
+    <math>
+      <msup>
+      <mi>a</mi>
+      <mn>2</mn>
+      </msup>
+      <mi>+</mi>
+      <mfrac>
+
+            <msup>
+          <mi>&pi;r</mi>
+          <mn>2</mn>
+          </msup>
+
+           <mi> 2 </mi>
+        </mfrac>
+    </math>
+
+</div>
+</body>
+</html>
