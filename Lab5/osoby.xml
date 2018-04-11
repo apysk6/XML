@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<osoby>
+  <osoba plec="mezczyzna">
+    <imie>Adam</imie>
+    <nazwisko>Nowak</nazwisko>
+    <adres>
+      <miejscowosc>Gdansk</miejscowosc>
+      <ulica>Dabrowszczakow</ulica>
+      <nr-domu>2</nr-domu>
+    </adres>
+    <telefony>
+      <tel-stac>568156587</tel-stac>
+      <tel-kom>795854744</tel-kom>
+    </telefony>
+  </osoba>
+
+  <osoba plec="mezczyzna">
+    <imie>Michał</imie>
+    <nazwisko>Kędzierza</nazwisko>
+    <adres>
+      <miejscowosc>Wrocław</miejscowosc>
+      <ulica>Wyzwolenia</ulica>
+      <nr-domu>9</nr-domu>
+    </adres>
+    <telefony>
+      <tel-stac>548754885</tel-stac>
+      <tel-kom>754854996</tel-kom>
+    </telefony>
+  </osoba>
+</osoby>

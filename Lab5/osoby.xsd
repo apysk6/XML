@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="stringtype">
+  <xs:restriction base="xs:string"/>
+</xs:simpleType>
+
+<xs:simpleType name="inttype">
+  <xs:restriction base="xs:positiveInteger"/>
+</xs:simpleType>
+
+<xs:simpleType name="dectype">
+  <xs:restriction base="xs:decimal"/>
+</xs:simpleType>
+
+<xs:complexType name="adrestype">
+  <xs:sequence>
+    <xs:element name="miejscowosc" type="stringtype"/>
+    <xs:element name="ulica" type="stringtype"/>
+    <xs:element name="nr-domu" type="inttype"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="osobatype">
+  <xs:sequence>
+    <xs:element name="imie" type="stringtype"/>
+    <xs:element name="nazwisko" type="stringtype"/>
+    <xs:element name="adres" type="adrestype"/>
+    <xs:element name="telefony" type="telefonytype"/>
+  </xs:sequence>
+    <xs:attribute name="plec" type="stringtype" use="required"/>
+</xs:complexType>
+
+<xs:complexType name="telefonytype">
+  <xs:sequence>
+    <xs:element name="tel-stac" type="inttype"/>
+    <xs:element name="tel-kom" type="inttype"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="osobytype">
+  <xs:sequence>
+    <xs:element name="osoba" type="osobatype" maxOccurs="unbounded"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:element name="osoby" type="osobytype"/>
+
+</xs:schema>
