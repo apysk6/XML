@@ -1,0 +1,20 @@
+<!ENTITY fab "fabularne">
+<!ENTITY przew "przewodniki">
+<!ENTITY inf "informatyczne">
+
+<!ELEMENT biblioteka    (ksiazka+,dzial+)>
+<!ELEMENT ksiazka       (tytul, autor, opis?)>
+
+    <!ATTLIST ksiazka id ID #REQUIRED>
+    <!ATTLIST ksiazka oprawa (twarda|miękka) #REQUIRED>
+    <!ATTLIST ksiazka opcja CDATA #IMPLIED>
+    <!ATTLIST ksiazka dzial IDREF #REQUIRED>
+    <!ATTLIST dzial kod ID #REQUIRED>
+    
+
+<!ELEMENT   tytul       (#PCDATA)>
+<!ELEMENT   autor       (#PCDATA)>
+<!ELEMENT   opis        (#PCDATA)>
+<!ELEMENT   dzial       (#PCDATA)>
+
+

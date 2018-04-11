@@ -1,0 +1,40 @@
+<!DOCTYPE uczelnia SYSTEM "uczelnia.dtd">
+<uczelnia>
+<nazwa>Uniwersytet Gdanski</nazwa>
+<rektor>
+    <tytul>Rektor</tytul>
+    <imie>Jerzy Piotr</imie>
+    <nazwisko>Gwizdała </nazwisko>
+</rektor>
+    
+<prorektor>
+    <tytul>Profesor Nadzwyczajny</tytul>
+    <imie>Arnold</imie>
+    <nazwisko>Klonczynski</nazwisko>
+</prorektor>
+    
+<prorektor>
+    <tytul>Prof. Dr. Hab.</tytul>
+    <imie></imie>
+    <nazwisko></nazwisko>
+</prorektor>
+
+<wydzial>
+    <nazwa>Matematyki Fizyki i Informatyki</nazwa>
+    <dziekan>
+        <tytul>Profesora</tytul>
+        <imie>Piotr</imie>
+        <nazwisko>Bojarski</nazwisko>
+    </dziekan>
+    
+    <prodziekan>
+        <tytul>Doktor</tytul>
+        <imie>Barbara</imie>
+        <nazwisko>Wolnik</nazwisko>
+    </prodziekan>
+    
+    <kierunek>Informatyka</kierunek>
+</wydzial>    
+    
+    
+</uczelnia>
