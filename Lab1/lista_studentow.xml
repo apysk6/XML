@@ -1,0 +1,22 @@
+<listaStudentow>
+<student grupa="I" pozycjaWGrupie="10">
+<nazwisko>Kowalski</nazwisko>
+<imie>Jan</imie>
+<nrIndeksu>123</nrIndeksu>
+<wydzialKod>MFI</wydzialKod>
+</student>
+<student grupa="I" pozycjaWGrupie="11">
+<nazwisko>Lipińska</nazwisko>
+<imie>Ewa</imie>
+<nrIndeksu>124</nrIndeksu>
+<wydzialKod>MFI</wydzialKod>
+</student>
+    
+<student grupa="I" pozycjaWGrupie="12">
+<nazwisko>Dęby</nazwisko>
+<imie>Adam</imie>
+<nrIndeksu>127</nrIndeksu>
+<wydzialKod>MFI</wydzialKod>
+</student>
+    
+</listaStudentow>

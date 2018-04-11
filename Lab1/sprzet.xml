@@ -1,0 +1,16 @@
+<listaSprzetu>
+    <!--Atrybuty ponizej-->
+    <sprzet firma="Dell" cena="22zł">
+        <typ>Komputer</typ>
+        <model>XML-10</model>
+        <kolor>czarny</kolor>
+    </sprzet>
+
+
+    <sprzet firma="HP" cena="32zł">
+        <typ>Drukarka</typ>
+        <model>XML-99</model>
+        <kolor>szary</kolor>
+    </sprzet>
+    
+</listaSprzetu>
